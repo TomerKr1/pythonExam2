@@ -1,0 +1,6 @@
+{
+   "instance_id": "i-1234567890abcdef0",
+   "instance_state": "running",
+   "public_ip": "3.92.102.45",
+   "load_balancer_dns": "fake-lb-dns-name.amazonaws.com"
+}
