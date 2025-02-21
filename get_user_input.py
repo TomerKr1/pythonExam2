@@ -10,6 +10,9 @@ i set the default values for the user choice, so if the user will not choose any
 selection = {}
 def user_choice(menu: str, actions: dict[str, Callable]):
     user_input  = input(menu).strip()
+    if user_input == " ":
+        print("Unknown action, try again")
+        return None
     if user_input == "q":
         return None  
     try:
