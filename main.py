@@ -2,7 +2,6 @@ from boto3Mission import  search_ALB, search_instance
 from generate_tf import execute_terraform, generate_terraform
 from get_user_input import user_choice, display_selections
 from python_terraform import Terraform
-import boto3
 from json_saving import save_data
 
 
@@ -19,7 +18,7 @@ with open('generated_tf.tf', 'w') as f: # write the TF file
     f.write(terraform_geneate)
     print("successe creating of TF file")
 
-execute_terraform() # trying to run the TF, but i have some issues with the VPC.
+#execute_terraform() # trying to run the TF, but i have some issues with the VPC.
 # so i asked the GPT to generate me a 'fake EC2 instance, LB dns name for the next steps.
 # it may be stock but you can '#' it so you can keep see the other functions.
 

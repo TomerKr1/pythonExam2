@@ -15,7 +15,7 @@ resource "aws_instance" "web_server" {
 }
 
 resource "aws_lb" "application_lb" {
-  name               = "fewrwrw"
+  name               = "tomerr"
   internal           = false
   load_balancer_type = "application"
   security_groups    = [aws_security_group.lb_sg.id]

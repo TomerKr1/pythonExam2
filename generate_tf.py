@@ -10,8 +10,6 @@ I had a prolbem with the VPC but the file builded in the currect way and i also 
 for example in the listener and the target group.
 """
 
-
-
 def generate_terraform(selection):
     terraform_template = """
     
