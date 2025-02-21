@@ -11,6 +11,8 @@ q - Exit
 """
 
 selection = user_choice(main_menu, {"1": display_selections, "q": exit})
+if selection is None:
+    exit() 
 terraform_geneate = generate_terraform(selection)  # generate the TF file
 
 
