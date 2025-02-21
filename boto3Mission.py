@@ -103,7 +103,7 @@ def search_ALB(albDNS: str):
     else:
         print(f"ALB with DNS Name {albDNS} not found.")
         choice = input("Do you want to see all the other ALBs? (yes/no): ").lower()
-        if  choice.lower() == 'yes':
+        if choice.lower() == 'yes':
             print("Listing all ALBs:")
             print_alb(all_albs)
         else:
